@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: blue;
+    font-size: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+  
+}
+section{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: gainsboro;
+    margin: 20px;
+}
+section>h2{
+    text-align: center;
+}
+div.lefty{
+    float: left;
+}
+section>p{
+    padding: 10px;
+}
+nav{    
+    background-color: crimson;
+    height: 80px;
+}
+.icon-bar{
+	background-color: white;
+}
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+.menu-item{
+    color: white;
+}
+li{
+    background-color: tomato;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
